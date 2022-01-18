@@ -82,6 +82,10 @@
 !docs/case/**
 
 
+###--- Datasheets
+!datashits/**
+
+
 # Even if they are in subdirectories
 !**/
 
