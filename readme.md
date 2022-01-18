@@ -17,6 +17,7 @@ Control from a computer via RS-232 (J8) interface or via UART-USB adapter (J6).
 The development of the device is suspended, the plans are:  
 - firmware for analog channel;  
 - saving data to a separate EEPROM (scheme and firmware);  
+- firmware for LCD and keyboard;
 - new version of the case.  
 
 #### PC program description:
@@ -48,8 +49,17 @@ will be displayed in the log field.
 select "Disconnect", click "Refresh", select the required COM port from the  
 drop-down list, and click the "Connect" button, you can go back to the  
 "Impulse" tab.  
-The protocol for data exchange between the device and the PC is [here](docs/protocol.html). 
+
+The protocol for data exchange between the device and the PC is  
+[here](https://htmlpreview.github.io/?https://github.com/piro-s/generator/blob/master/docs/protocol.html).  
 
 
-#### Scheme
-[scheme_v3.2_pdf](docs/scheme/scheme_v3.2.pdf)
+#### Scheme  
+[scheme_v3.2_pdf](docs/scheme/scheme_v3.2.pdf)  
+
+
+#### Case  
+Prototype case for v3.2 generator board (case will fit next versions).  
+![prototype_v0_1](docs/case/prototype_v0.1.png)  
+Errors:  
+- the two diagonal posts interfere with the connectors.  

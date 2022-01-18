@@ -74,6 +74,14 @@
 !docs/scheme_*.pdf
 
 
+###--- Case
+# Don't ignore case files
+!case/**
+
+# Don't ignore case dosc
+!docs/case/**
+
+
 # Even if they are in subdirectories
 !**/
 
