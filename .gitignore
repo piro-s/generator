@@ -49,6 +49,9 @@
 # Don't ignore program
 !program/generator_pyGui/dist/**
 
+# Don't ignore protocol
+!docs/protocol.html
+
 
 ###--- Scheme
 # Don't ignore KiCad files
