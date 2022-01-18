@@ -49,3 +49,6 @@ select "Disconnect", click "Refresh", select the required COM port from the
 drop-down list, and click the "Connect" button, you can go back to the  
 "Impulse" tab.  
 
+
+#### Scheme
+[scheme_v3.2_pdf](docs/scheme/scheme_v3.2.pdf)

@@ -50,6 +50,27 @@
 !program/generator_pyGui/dist/**
 
 
+###--- Scheme
+# Don't ignore KiCad files
+!scheme/**/*.kicad_pcb
+!scheme/**/*.pro
+!scheme/**/*.sch
+
+# Don't ignore KiCad lib
+!scheme/**/*.lib
+!scheme/**/*.pretty
+!scheme/**/*.pretty/*.kicad_mod
+
+# Don't ignore BOM
+!scheme/**/ibom.html
+
+# Don't ignore gerber archive
+!gerber/generator_scheme_*.zip
+
+# Don't ignore docs
+!docs/scheme_*.pdf
+
+
 # Even if they are in subdirectories
 !**/
 
