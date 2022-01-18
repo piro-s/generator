@@ -1,0 +1,29 @@
+### generator
+
+# Ignore all files
+*
+
+# Don't ignore Git files
+!.gitignore
+!readme.md
+
+
+###--- Device program
+# Don't ignore C files
+!program/generator_v2/**/*.h
+!program/generator_v2/**/*.c
+
+# Don't ignore bin file
+!program/generator_v2/**/*.elf
+
+# Don't ignore STM32 files
+!program/generator_v2/**/*.ld
+!program/generator_v2/**/*.s
+
+# Don't ignore STM32CubeIDE files
+!program/generator_v2/**/*.cproject
+!program/generator_v2/**/*.project
+
+
+# Even if they are in subdirectories
+!**/
