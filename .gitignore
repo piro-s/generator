@@ -71,7 +71,7 @@
 !gerber/generator_scheme_*.zip
 
 # Don't ignore docs
-!docs/scheme_*.pdf
+!docs/scheme/scheme_*.pdf
 
 
 ###--- Case
