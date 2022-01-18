@@ -1,0 +1,173 @@
+ 
+################################################################################
+####################### Start a new session, good work! ########################
+################################################################################
+ 
+2022.01.18 21:46:46.611564 ||  ###---
+2022.01.18 21:46:46.611856 ||  Interface: get_impulse_parameters() start
+2022.01.18 21:46:46.611980 ||  ###---
+2022.01.18 21:46:46.612121 ||  Get all generator parameters.
+2022.01.18 21:46:46.612242 ||  ###---
+2022.01.18 21:46:46.612375 ||  Get pulseWidth from generator.
+2022.01.18 21:46:46.612546 ||  Can't write in COM port. Source: get_pulseWidth().
+2022.01.18 21:46:46.612741 ||  Data: [165, 5, 128, 132, 254, 90]
+2022.01.18 21:46:46.612892 ||  Can't read from COM port. Source: get_pulseWidth() ----- Clear COM buffer.
+2022.01.18 21:46:46.613010 ||  Start receive data from generator.
+2022.01.18 21:46:46.613140 ||  Can't read from COM port. Source: get_pulseWidth().
+2022.01.18 21:46:46.613262 ||  Received data from generator.
+2022.01.18 21:46:46.613375 ||  ###---
+2022.01.18 21:46:46.613508 ||  Get pulsePeriod from generator.
+2022.01.18 21:46:46.613652 ||  Can't write in COM port. Source: get_pulsePeriod().
+2022.01.18 21:46:46.613798 ||  Data: [165, 5, 129, 133, 254, 90]
+2022.01.18 21:46:46.613933 ||  Can't read from COM port. Source: get_pulsePeriod() ----- Clear COM buffer.
+2022.01.18 21:46:46.614058 ||  Start receive data from generator.
+2022.01.18 21:46:46.614179 ||  Can't read from COM port. Source: get_pulsePeriod().
+2022.01.18 21:46:46.614304 ||  Received data from generator.
+2022.01.18 21:46:46.614421 ||  ###---
+2022.01.18 21:46:46.614533 ||  Get pulseN from generator.
+2022.01.18 21:46:46.614665 ||  Can't write in COM port. Source: get_pulseN().
+2022.01.18 21:46:46.614785 ||  Data: [165, 5, 131, 135, 254, 90]
+2022.01.18 21:46:46.614920 ||  Can't read from COM port. Source: get_pulseN() ----- Clear COM buffer.
+2022.01.18 21:46:46.615052 ||  Start receive data from generator.
+2022.01.18 21:46:46.615194 ||  Can't read from COM port. Source: get_pulseN().
+2022.01.18 21:46:46.615322 ||  Received data from generator.
+2022.01.18 21:46:46.615458 ||  ###---
+2022.01.18 21:46:46.615579 ||  Get packPeriod from generator.
+2022.01.18 21:46:46.615711 ||  Can't write in COM port. Source: get_packPeriod().
+2022.01.18 21:46:46.615841 ||  Data: [165, 5, 130, 134, 254, 90]
+2022.01.18 21:46:46.615964 ||  Can't read from COM port. Source: get_packPeriod() ----- Clear COM buffer.
+2022.01.18 21:46:46.616104 ||  Start receive data from generator.
+2022.01.18 21:46:46.616239 ||  Can't read from COM port. Source: get_packPeriod().
+2022.01.18 21:46:46.616363 ||  Received data from generator.
+2022.01.18 21:46:46.616494 ||  ###---
+2022.01.18 21:46:46.616613 ||  Get state_generation from generator.
+2022.01.18 21:46:46.618073 ||  Can't write in COM port. Source: get_impulse_generator_state().
+2022.01.18 21:46:46.618217 ||  Data: [165, 5, 227, 231, 254, 90]
+2022.01.18 21:46:46.618332 ||  Can't read from COM port. Source: get_impulse_generator_state() ----- Clear COM buffer.
+2022.01.18 21:46:46.618438 ||  Start receive data from generator.
+2022.01.18 21:46:46.618551 ||  Can't read from COM port. Source: get_impulse_generator_state().
+2022.01.18 21:46:46.618664 ||  Received data from generator.
+2022.01.18 21:46:46.618772 ||  Received all parameters from generator.
+2022.01.18 21:46:46.618875 ||  Generator parameters:
+2022.01.18 21:46:46.619007 ||  {'pulseWidth': 0, 'pulseWidth_t': 0, 'pulseWidth_mlt': 't', 'pulsePeriod': 0, 'pulsePeriod_t': 0, 'pulsePeriod_mlt': 't', 'pulse_psc': 0, 'pulseN': 0, 'packPeriod': 0, 'pause': 0, 'packPeriod_t': 0, 'packPeriod_mlt': 't', 'pack_psc': 0, 'state_generation': 0}
+2022.01.18 21:46:46.619128 ||  In get_pulseWidth() error: wrong response.
+2022.01.18 21:46:46.619242 ||  In get_pulsePeriod() error: wrong response.
+2022.01.18 21:46:46.619347 ||  In get_pulseN() error: wrong response.
+2022.01.18 21:46:46.619452 ||  In get_packPeriod() error: wrong response.
+2022.01.18 21:46:46.619554 ||  In get_impulse_generator_state() error: wrong response.
+2022.01.18 21:46:46.619691 ||  ###---
+2022.01.18 21:46:46.619796 ||  Error while getting parameters from generator.
+2022.01.18 21:46:46.620308 ||  ###---
+2022.01.18 21:46:46.620502 ||  Interface: check_generator_status() start
+2022.01.18 21:46:46.620607 ||  ###---
+2022.01.18 21:46:46.621703 ||  Get all generator parameters.
+2022.01.18 21:46:46.621810 ||  ###---
+2022.01.18 21:46:46.621907 ||  Get pulseWidth from generator.
+2022.01.18 21:46:46.622042 ||  Can't write in COM port. Source: get_pulseWidth().
+2022.01.18 21:46:46.622153 ||  Data: [165, 5, 128, 132, 254, 90]
+2022.01.18 21:46:46.622267 ||  Can't read from COM port. Source: get_pulseWidth() ----- Clear COM buffer.
+2022.01.18 21:46:46.622372 ||  Start receive data from generator.
+2022.01.18 21:46:46.622483 ||  Can't read from COM port. Source: get_pulseWidth().
+2022.01.18 21:46:46.622591 ||  Received data from generator.
+2022.01.18 21:46:46.622704 ||  ###---
+2022.01.18 21:46:46.622816 ||  Get pulsePeriod from generator.
+2022.01.18 21:46:46.622941 ||  Can't write in COM port. Source: get_pulsePeriod().
+2022.01.18 21:46:46.623058 ||  Data: [165, 5, 129, 133, 254, 90]
+2022.01.18 21:46:46.623175 ||  Can't read from COM port. Source: get_pulsePeriod() ----- Clear COM buffer.
+2022.01.18 21:46:46.623289 ||  Start receive data from generator.
+2022.01.18 21:46:46.623397 ||  Can't read from COM port. Source: get_pulsePeriod().
+2022.01.18 21:46:46.623506 ||  Received data from generator.
+2022.01.18 21:46:46.623615 ||  ###---
+2022.01.18 21:46:46.623723 ||  Get pulseN from generator.
+2022.01.18 21:46:46.623845 ||  Can't write in COM port. Source: get_pulseN().
+2022.01.18 21:46:46.623961 ||  Data: [165, 5, 131, 135, 254, 90]
+2022.01.18 21:46:46.624078 ||  Can't read from COM port. Source: get_pulseN() ----- Clear COM buffer.
+2022.01.18 21:46:46.624188 ||  Start receive data from generator.
+2022.01.18 21:46:46.624302 ||  Can't read from COM port. Source: get_pulseN().
+2022.01.18 21:46:46.624412 ||  Received data from generator.
+2022.01.18 21:46:46.624523 ||  ###---
+2022.01.18 21:46:46.632765 ||  Get packPeriod from generator.
+2022.01.18 21:46:46.633037 ||  Can't write in COM port. Source: get_packPeriod().
+2022.01.18 21:46:46.633141 ||  Data: [165, 5, 130, 134, 254, 90]
+2022.01.18 21:46:46.633240 ||  Can't read from COM port. Source: get_packPeriod() ----- Clear COM buffer.
+2022.01.18 21:46:46.633332 ||  Start receive data from generator.
+2022.01.18 21:46:46.633420 ||  Can't read from COM port. Source: get_packPeriod().
+2022.01.18 21:46:46.633506 ||  Received data from generator.
+2022.01.18 21:46:46.633587 ||  ###---
+2022.01.18 21:46:46.633664 ||  Get state_generation from generator.
+2022.01.18 21:46:46.633758 ||  Can't write in COM port. Source: get_impulse_generator_state().
+2022.01.18 21:46:46.633843 ||  Data: [165, 5, 227, 231, 254, 90]
+2022.01.18 21:46:46.633932 ||  Can't read from COM port. Source: get_impulse_generator_state() ----- Clear COM buffer.
+2022.01.18 21:46:46.634021 ||  Start receive data from generator.
+2022.01.18 21:46:46.634105 ||  Can't read from COM port. Source: get_impulse_generator_state().
+2022.01.18 21:46:46.634186 ||  Received data from generator.
+2022.01.18 21:46:46.634264 ||  Received all parameters from generator.
+2022.01.18 21:46:46.634341 ||  Generator parameters:
+2022.01.18 21:46:46.634431 ||  {'pulseWidth': 0, 'pulseWidth_t': 0, 'pulseWidth_mlt': 't', 'pulsePeriod': 0, 'pulsePeriod_t': 0, 'pulsePeriod_mlt': 't', 'pulse_psc': 0, 'pulseN': 0, 'packPeriod': 0, 'pause': 0, 'packPeriod_t': 0, 'packPeriod_mlt': 't', 'pack_psc': 0, 'state_generation': 0}
+2022.01.18 21:46:46.634522 ||  In get_pulseWidth() error: wrong response.
+2022.01.18 21:46:46.634592 ||  In get_pulsePeriod() error: wrong response.
+2022.01.18 21:46:46.634660 ||  In get_pulseN() error: wrong response.
+2022.01.18 21:46:46.634728 ||  In get_packPeriod() error: wrong response.
+2022.01.18 21:46:46.634806 ||  In get_impulse_generator_state() error: wrong response.
+2022.01.18 21:46:46.635368 ||  ###---
+2022.01.18 21:46:46.635486 ||  Error while getting parameters from generator.
+2022.01.18 21:46:46.635748 ||  ###---
+2022.01.18 21:46:46.635916 ||  Can't connected to generator.
+2022.01.18 21:46:46.636190 ||  ###---
+2022.01.18 21:46:46.636317 ||  Interface: check_generator_status() end
+2022.01.18 21:46:56.620555 ||  ###---
+2022.01.18 21:46:56.620903 ||  Interface: get_impulse_parameters() start
+2022.01.18 21:46:56.621045 ||  ###---
+2022.01.18 21:46:56.621183 ||  Get all generator parameters.
+2022.01.18 21:46:56.621325 ||  ###---
+2022.01.18 21:46:56.621459 ||  Get pulseWidth from generator.
+2022.01.18 21:46:56.621649 ||  Can't write in COM port. Source: get_pulseWidth().
+2022.01.18 21:46:56.621805 ||  Data: [165, 5, 128, 132, 254, 90]
+2022.01.18 21:46:56.621959 ||  Can't read from COM port. Source: get_pulseWidth() ----- Clear COM buffer.
+2022.01.18 21:46:56.622104 ||  Start receive data from generator.
+2022.01.18 21:46:56.622249 ||  Can't read from COM port. Source: get_pulseWidth().
+2022.01.18 21:46:56.622391 ||  Received data from generator.
+2022.01.18 21:46:56.622533 ||  ###---
+2022.01.18 21:46:56.622670 ||  Get pulsePeriod from generator.
+2022.01.18 21:46:56.622828 ||  Can't write in COM port. Source: get_pulsePeriod().
+2022.01.18 21:46:56.622977 ||  Data: [165, 5, 129, 133, 254, 90]
+2022.01.18 21:46:56.623128 ||  Can't read from COM port. Source: get_pulsePeriod() ----- Clear COM buffer.
+2022.01.18 21:46:56.623269 ||  Start receive data from generator.
+2022.01.18 21:46:56.623417 ||  Can't read from COM port. Source: get_pulsePeriod().
+2022.01.18 21:46:56.623559 ||  Received data from generator.
+2022.01.18 21:46:56.623697 ||  ###---
+2022.01.18 21:46:56.623833 ||  Get pulseN from generator.
+2022.01.18 21:46:56.624072 ||  Can't write in COM port. Source: get_pulseN().
+2022.01.18 21:46:56.625035 ||  Data: [165, 5, 131, 135, 254, 90]
+2022.01.18 21:46:56.630044 ||  Can't read from COM port. Source: get_pulseN() ----- Clear COM buffer.
+2022.01.18 21:46:56.630179 ||  Start receive data from generator.
+2022.01.18 21:46:56.631028 ||  Can't read from COM port. Source: get_pulseN().
+2022.01.18 21:46:56.631154 ||  Received data from generator.
+2022.01.18 21:46:56.632970 ||  ###---
+2022.01.18 21:46:56.635585 ||  Get packPeriod from generator.
+2022.01.18 21:46:56.635852 ||  Can't write in COM port. Source: get_packPeriod().
+2022.01.18 21:46:56.635959 ||  Data: [165, 5, 130, 134, 254, 90]
+2022.01.18 21:46:56.636074 ||  Can't read from COM port. Source: get_packPeriod() ----- Clear COM buffer.
+2022.01.18 21:46:56.636177 ||  Start receive data from generator.
+2022.01.18 21:46:56.636270 ||  Can't read from COM port. Source: get_packPeriod().
+2022.01.18 21:46:56.636357 ||  Received data from generator.
+2022.01.18 21:46:56.636442 ||  ###---
+2022.01.18 21:46:56.637464 ||  Get state_generation from generator.
+2022.01.18 21:46:56.639225 ||  Can't write in COM port. Source: get_impulse_generator_state().
+2022.01.18 21:46:56.639506 ||  Data: [165, 5, 227, 231, 254, 90]
+2022.01.18 21:46:56.641361 ||  Can't read from COM port. Source: get_impulse_generator_state() ----- Clear COM buffer.
+2022.01.18 21:46:56.641489 ||  Start receive data from generator.
+2022.01.18 21:46:56.641583 ||  Can't read from COM port. Source: get_impulse_generator_state().
+2022.01.18 21:46:56.642755 ||  Received data from generator.
+2022.01.18 21:46:56.642876 ||  Received all parameters from generator.
+2022.01.18 21:46:56.642961 ||  Generator parameters:
+2022.01.18 21:46:56.643079 ||  {'pulseWidth': 0, 'pulseWidth_t': 0, 'pulseWidth_mlt': 't', 'pulsePeriod': 0, 'pulsePeriod_t': 0, 'pulsePeriod_mlt': 't', 'pulse_psc': 0, 'pulseN': 0, 'packPeriod': 0, 'pause': 0, 'packPeriod_t': 0, 'packPeriod_mlt': 't', 'pack_psc': 0, 'state_generation': 0}
+2022.01.18 21:46:56.643211 ||  In get_pulseWidth() error: wrong response.
+2022.01.18 21:46:56.643290 ||  In get_pulsePeriod() error: wrong response.
+2022.01.18 21:46:56.643368 ||  In get_pulseN() error: wrong response.
+2022.01.18 21:46:56.643445 ||  In get_packPeriod() error: wrong response.
+2022.01.18 21:46:56.643522 ||  In get_impulse_generator_state() error: wrong response.
+2022.01.18 21:46:56.643605 ||  ###---
+2022.01.18 21:46:56.643687 ||  Error while getting parameters from generator.
+2022.01.18 21:46:57.499200 ||  ###---
+2022.01.18 21:46:57.499958 ||  Closed COM port.

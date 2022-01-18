@@ -8,6 +8,11 @@
 !readme.md
 
 
+###--- Docs
+!docs/setup/**
+
+
+
 ###--- Device program
 # Don't ignore C files
 !program/generator_v2/**/*.h
@@ -25,5 +30,34 @@
 !program/generator_v2/**/*.project
 
 
+###--- PC program
+# Don't ignore py files
+!program/generator_pyGui/**/*.py
+
+# Don't ignore gif
+!program/generator_pyGui/**/*.gif
+
+# Don't ignore ico
+!program/generator_pyGui/**/*.ico
+
+# Don't ignore json
+!program/generator_pyGui/**/*.json
+
+# Don't ignore txt
+!program/generator_pyGui/**/*.txt
+
+# Don't ignore program
+!program/generator_pyGui/dist/**
+
+
 # Even if they are in subdirectories
 !**/
+
+# Ignore old
+program/generator_pyGui/logs/**
+program/generator_pyGui/log.txt
+program/generator_pyGui/old/
+program/generator_pyGui/dist/generator_pyGui/logs/
+program/generator_pyGui/dist/generator_pyGui/log.txt
+program/generator_pyGui/dist/logs/**
+program/generator_pyGui/dist/log.txt

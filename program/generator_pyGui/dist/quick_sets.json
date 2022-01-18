@@ -1,0 +1,1 @@
+{"quick_sets": [{"name": "test", "main": {"pulseWidth": 2, "pulseWidth_mlt": "u", "pulsePeriod": 7, "pulsePeriod_mlt": "u", "pulseN": 3, "packPeriod": 55, "packPeriod_mlt": "u"}}, {"name": "default", "main": {"pulseWidth": 1000, "pulseWidth_mlt": "n", "pulsePeriod": 10, "pulsePeriod_mlt": "u", "pulseN": 5, "packPeriod": 100, "packPeriod_mlt": "u"}}]}
