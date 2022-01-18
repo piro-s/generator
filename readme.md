@@ -25,6 +25,7 @@ The program allows you to customize the set values for the generator.
 For use:  
 - linux: run generator_pyGui.py  
 - windows: run dist/generator_pyGui.exe  
+
 Setup:  
 1. Select the COM port to which the device is connected from the drop-down list:  
 ![1_select](docs/setup/1_select.png)  
